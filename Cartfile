@@ -1,1 +1,2 @@
-github "provivus/json"
+github "provivus/json" "master"
+
