@@ -1,2 +1,1 @@
-github "provivus/json" "master"
-
+github "provivus/json" == 2.3.2
