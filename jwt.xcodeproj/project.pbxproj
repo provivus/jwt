@@ -498,7 +498,7 @@
 			path = Tests/JWTTests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				0480A8051F8518CD00204C4F /* Cartfile */,
@@ -507,7 +507,6 @@
 				OBJ_46 /* Playground */,
 				OBJ_166 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -830,7 +829,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_166 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1299,7 +1298,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = JWT.xcodeproj/JWT_Info.plist;
@@ -1321,7 +1320,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = JWT.xcodeproj/JWT_Info.plist;
